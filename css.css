@@ -49,7 +49,11 @@ tr{
     transition: 0.5s;
 }
 input{
+    padding: 10px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgb(95, 95, 95);
 }
+input:focus {
+    outline: none !important;
+  }
